@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<title>
+SIGN UP
+</title>
+</head>
+<body>
+<h1>Sign Up</h1>
+
+<form>
+Name : <input type="text"  placeholder="Enter Your Name">
+
+<br><br>
+Email : <input type="email" placeholder="Enter your Email"><br><br>
+
+Create Password:<input type="password" id="myInput" placeholder="Enter Password">
+<input type="checkbox" onclick="myFunction()"> <br><br><br>
+<script>
+funtion myFunction()
+{var x = document.getElementById("myInput");
+if (x.type === "password"){
+x.type = "text";
+}
+else{
+x.type = "password";
+}
+}
+</script>
+Re-Enter Password:<input type="password" placeholder="Re enter Password"><br><br>
+<br>
+<hr>
+select gender<br><br>
+<input type= "radio" name= "gender">Male<br>
+<input type= "radio" name="gender">Female<br>
+<input type= "radio" name= "gender">other<br><br>
+Contact no : <input type "text" placeholder= "Enter Your Phone Number"><br>
+<hr>
+<button type=Sign Up"value="Sign Up">SIGN UP</button><br><br>
+<head> THANK YOU </head>
+</form>
+</body>
+</html> 
